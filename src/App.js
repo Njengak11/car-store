@@ -9,6 +9,7 @@ import Model from './components/Model';
 import Info from './components/Info'
 import LogoGrid from './components/LogoGrid'
 import Reviews from './components/Reviews';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Info />
       <LogoGrid />
       <Reviews />
+      <Footer />
     </div>
     
   );
