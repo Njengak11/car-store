@@ -20,8 +20,8 @@ const Item = styled(Paper)(({ theme }) => ({
 
 export default function Auction() {
   return (
-    <Box sx={{ flexGrow: 1 ,mx:10 }}>
-        <Typography gutterBottom variant="h4" component="div" align="left">
+    <Box sx={{ flexGrow: 1 ,mx:10, mt:15 }}>
+        <Typography  variant="h4"  align="left">
         Trending near you
         </Typography>
       <Grid container spacing={4} >
@@ -35,7 +35,7 @@ export default function Auction() {
         alt="subaru"
       />
       <CardContent>
-        <Typography gutterBottom variant="h6" component="div">
+        <Typography>
         Used Car $15,000
         </Typography>
       </CardContent>
@@ -52,7 +52,7 @@ export default function Auction() {
         alt="VW beetle"
       />
       <CardContent>
-        <Typography gutterBottom variant="h6" component="div">
+        <Typography>
         Used Cars under $6000
         </Typography>
         </CardContent>
@@ -69,7 +69,7 @@ export default function Auction() {
         alt="supra"
       />
       <CardContent>
-        <Typography gutterBottom variant="h6" component="div">
+        <Typography   >
           Toyota Models 2021
         </Typography>
       </CardContent>

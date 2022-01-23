@@ -21,7 +21,7 @@ const Item = styled(Paper)(({ theme }) => ({
 
 export default function Model() {
   return (
-    <Box sx={{ flexGrow: 1, mt:5,mx:10 }}>
+    <Box sx={{ flexGrow: 1, mt:15,mx:10 }}>
        <Typography gutterBottom variant="h4" component="div" align="left">
         Find Car by model
         </Typography>
