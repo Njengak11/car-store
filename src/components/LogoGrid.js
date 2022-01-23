@@ -21,13 +21,13 @@ const Item = styled(Paper)(({ theme }) => ({
 
 export default function LogoGrid() {
   return (
-    <Box sx={{flexGrow: 1,mt:5, mx:15}}>
+    <Box sx={{flexGrow: 1,mt:8, mx:15}}>
       <Grid container columns={{ xs: 4, sm: 8, md: 12 }} columnSpacing={{ xs: 2,  md: 3 }}>
         <Grid item xs={2} sm={4} md={4}>
           <Item>
           <img src={benz} width="100" height="50" />
           </Item>
-          <Typography>
+          <Typography fontWeight= 'bold'>
               Mercedes Benz
           </Typography>
         </Grid>

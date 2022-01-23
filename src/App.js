@@ -8,6 +8,7 @@ import Auction from './components/Auction';
 import Model from './components/Model';
 import Info from './components/Info'
 import LogoGrid from './components/LogoGrid'
+import Reviews from './components/Reviews';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Model />
       <Info />
       <LogoGrid />
+      <Reviews />
     </div>
     
   );
