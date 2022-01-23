@@ -24,6 +24,8 @@ export default function BoxSx() {
       <Typography variant="h6"  align="center" pt={5} style={{color:'white'}}>
       Featuring Used, Wholesome and Salvage  Cars, Trucks and SUVs
       </Typography>
+      
+      
   </Box>
   );
 }

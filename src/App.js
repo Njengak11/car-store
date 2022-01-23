@@ -5,6 +5,7 @@ import Header from './components/Header';
 import DropDown from './components/DropDown';
 import CarLogos from './components/CarLogos';
 import Auction from './components/Auction';
+import Model from './components/Model';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <DropDown />
       <CarLogos/>
       <Auction />
+      <Model />
     </div>
     
   );

@@ -14,7 +14,7 @@ export default function DropDown() {
 
   return (
     <div>
-      <FormControl variant="standard" sx={{ m: 1, minWidth: 120 }}>
+      <FormControl variant="filled" sx={{ m: 1, minWidth: 120 }}>
         <InputLabel id="demo-simple-select-standard-label"  style={{color:'purple'}}>Type</InputLabel>
         <Select
           labelId="demo-simple-select-standard-label"
