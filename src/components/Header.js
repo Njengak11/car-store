@@ -1,6 +1,5 @@
 import * as React from 'react';
 import Box from '@mui/material/Box';
-import { sizing } from '@mui/system';
 import wrapper from '../img/wrapper.jpeg'
 import Typography from '@mui/material/Typography';
 

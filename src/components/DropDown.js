@@ -15,7 +15,7 @@ export default function DropDown() {
   return (
     <div>
       <FormControl variant="standard" sx={{ m: 1, minWidth: 120 }}>
-        <InputLabel id="demo-simple-select-standard-label">Type</InputLabel>
+        <InputLabel id="demo-simple-select-standard-label"  style={{color:'purple'}}>Type</InputLabel>
         <Select
           labelId="demo-simple-select-standard-label"
           id="demo-simple-select-standard"
@@ -31,7 +31,7 @@ export default function DropDown() {
         </Select>
       </FormControl>
       <FormControl variant="filled" sx={{ m: 1, minWidth: 120 }}>
-        <InputLabel id="demo-simple-select-filled-label">Make</InputLabel>
+        <InputLabel id="demo-simple-select-filled-label"  style={{color:'purple'}}>Make</InputLabel>
         <Select
           labelId="demo-simple-select-filled-label"
           id="demo-simple-select-filled"
@@ -49,7 +49,7 @@ export default function DropDown() {
         </Select>
       </FormControl>
       <FormControl variant="filled" sx={{ m: 1, minWidth: 120 }}>
-        <InputLabel id="demo-simple-select-filled-label">Model</InputLabel>
+        <InputLabel id="demo-simple-select-filled-label"  style={{color:'purple'}}>Model</InputLabel>
         <Select
           labelId="demo-simple-select-filled-label"
           id="demo-simple-select-filled"
@@ -67,7 +67,7 @@ export default function DropDown() {
         </Select>
       </FormControl>
       <FormControl variant="filled" sx={{ m: 1, minWidth: 120 }}>
-        <InputLabel id="demo-simple-select-filled-label">Price</InputLabel>
+        <InputLabel id="demo-simple-select-filled-label" style={{color:'purple'}}>Price</InputLabel>
         <Select
           labelId="demo-simple-select-filled-label"
           id="demo-simple-select-filled"
