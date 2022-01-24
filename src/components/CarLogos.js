@@ -24,14 +24,13 @@ export default function DirectionStack() {
   return (
     <div>
       <Stack align='center' direction="row" m={5}  spacing={5}>
-        <Item><img src={bmw} width="100" height="50" /></Item>
-        <Item><img src={benz} width="100" height="50" /></Item>
-        <Item><img src={lexus} width="100" height="50" /></Item>
-        <Item><img src={toyota} width="100" height="50" /></Item>
-        <Item><img src={lexus} width="100" height="50" /></Item>
-        <Item><img src={honda} width="100" height="50" /></Item>
-        <Item><img src={audi} width="100" height="50" /></Item>
-        <Item><img src={nissan} width="100" height="50" /></Item>
+        <Item><img src={bmw} width="100" height="50" alt="bmw" /></Item>
+        <Item><img src={benz} width="100" height="50" alt="benz" /></Item>
+        <Item><img src={toyota} width="100" height="50" alt="toyota"/></Item>
+        <Item><img src={lexus} width="100" height="50" alt="lexus"/></Item>
+        <Item><img src={honda} width="100" height="50" alt="honda"/></Item>
+        <Item><img src={audi} width="100" height="50" alt="audi" /></Item>
+        <Item><img src={nissan} width="100" height="50" alt="nissan"/></Item>
       </Stack>
     </div>
   );

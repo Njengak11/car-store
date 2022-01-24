@@ -17,38 +17,53 @@ export default function Footer() {
   return (
     <Box sx={{ flexGrow: 1,mx:10, mt:15 }}>
       <Grid container spacing={2}>
-        <Grid item xs={5}>
+        <Grid item xs={3}>
           <Item>
               <Typography  fontWeight= 'bold'>
                   About
               </Typography>
           </Item>
-          <Stack spacing={2}>
-        <Item>Item 1</Item>
-        <Item>Item 2</Item>
-        <Item>Item 3</Item>
-      </Stack>
+        <Item>Lorem Ipsum</Item>
+        <Item>Lorem Ipsum</Item>
+        <Item>Lorem Ipsum</Item>
+        <Item>Lorem Ipsum</Item>
+        <Item>Lorem Ipsum</Item>ver
         </Grid>
-        <Grid item xs={5}>
+        <Grid item xs={3}>
           <Item>
           <Typography  fontWeight= 'bold'>
                   Community
               </Typography>
           </Item>
+          <Item>Lorem Ipsum</Item>
+        <Item>Lorem Ipsum</Item>
+        <Item>Lorem Ipsum</Item>
+        <Item>Lorem Ipsum</Item>
+        <Item>Lorem Ipsum</Item>
         </Grid>
-        <Grid item xs={5}>
+        <Grid item xs={3}>
           <Item>
           <Typography  fontWeight= 'bold'>
                   Become a seller
               </Typography>
           </Item>
+          <Item>Lorem Ipsum</Item>
+        <Item>Lorem Ipsum</Item>
+        <Item>Lorem Ipsum</Item>
+        <Item>Lorem Ipsum</Item>
+        <Item>Lorem Ipsum</Item>
         </Grid>
-        <Grid item xs={5}>
+        <Grid item xs={3}>
           <Item>
           <Typography  fontWeight= 'bold'>
                   Bookings support
               </Typography>
           </Item>
+          <Item>Lorem Ipsum</Item>
+        <Item>Lorem Ipsum</Item>
+        <Item>Lorem Ipsum</Item>
+        <Item>Lorem Ipsum</Item>
+        <Item>Lorem Ipsum</Item>
         </Grid>
         </Grid>
     </Box>
