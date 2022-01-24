@@ -4,7 +4,6 @@ import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
-import Stack from '@mui/material/Stack';
 
 const Item = styled(Paper)(({ theme }) => ({
   ...theme.typography.body2,

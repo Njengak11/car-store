@@ -3,7 +3,6 @@ import { styled } from '@mui/material/styles';
 import Grid from '@mui/material/Grid';
 import Paper from '@mui/material/Paper';
 import Box from '@mui/material/Box';
-import bmw from '../img/bmw.png'
 import benz from '../img/benz.png'
 import lexus from '../img/lexus.png'
 import toyota from '../img/toyota.png'
@@ -25,32 +24,32 @@ export default function LogoGrid() {
       <Grid container columns={{ xs: 4, sm: 8, md: 12 }} columnSpacing={{ xs: 2,  md: 3 }}>
         <Grid item xs={2} sm={4} md={4}>
           <Item>
-          <img src={benz} width="100" height="50" />
+          <img src={benz} width="100" height="50" alt="benz" />
           </Item>
           <Typography fontWeight= 'bold'>
               Mercedes Benz
           </Typography>
         </Grid>
         <Grid item xs={2} sm={4} md={4}>
-          <Item><img src={lexus} width="100" height="50" /></Item>
+          <Item><img src={lexus} width="100" height="50" alt="lexus"/></Item>
           <Typography fontWeight= 'bold'>
               Lexus
           </Typography>
         </Grid>
         <Grid item xs={2} sm={4} md={4}>
-          <Item><img src={toyota} width="100" height="50" /></Item>
+          <Item><img src={toyota} width="100" height="50" alt="toyota"/></Item>
           <Typography fontWeight= 'bold'>
               Toyota
           </Typography>
         </Grid>
         <Grid item xs={2} sm={4} md={4}>
-          <Item><img src={audi} width="100" height="50" /></Item>
+          <Item><img src={audi} width="100" height="50" alt="audi"/></Item>
           <Typography fontWeight= 'bold'>
               Audi
           </Typography>
         </Grid>
         <Grid item xs={2} sm={4} md={4}>
-          <Item><img src={nissan} width="100" height="50" /></Item>
+          <Item><img src={nissan} width="100" height="50" alt="nissan"/></Item>
           <Typography fontWeight= 'bold'>
               Nissan
           </Typography>
