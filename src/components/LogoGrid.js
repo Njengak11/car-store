@@ -55,7 +55,7 @@ export default function LogoGrid() {
           </Typography>
         </Grid>
         <Grid item xs={2} sm={4} md={4}>
-          <Item><img src={honda} width="100" height="50" /></Item>
+          <Item><img src={honda} width="100" height="50"alt="honda" /></Item>
           <Typography fontWeight= 'bold'>
               Honda
           </Typography>
